@@ -1,0 +1,31 @@
+# Ignorar dependencias de Laravel y Angular
+catalogo/vendor/
+catalogo-peliculas/node_modules/
+
+# Ignorar archivos de configuración sensibles
+catalogo/.env
+
+# Ignorar archivos y carpetas generados por el sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de compilación de Angular
+catalogo-peliculas/dist/
+catalogo-peliculas/.angular/
+
+# Ignorar logs
+catalogo/storage/logs/*.log
+catalogo-peliculas/logs/
+
+# Ignorar archivos y carpetas de configuración de editor de texto
+.vscode/
+.idea/
+
+# Ignorar dependencias de Composer lock file si prefieres que no se guarde en el repositorio
+catalogo/composer.lock
+
+# Ignorar cache de Laravel
+catalogo/bootstrap/cache/
+catalogo/storage/framework/cache/
+catalogo/storage/framework/sessions/
+catalogo/storage/framework/views/
